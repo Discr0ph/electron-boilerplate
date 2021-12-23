@@ -1,0 +1,60 @@
+body {
+    padding: 0px;
+    margin: 0px; 
+    background-color: #191827;
+    font-family: 'Jetbrains Mono';
+   }
+   
+   #title-bar {
+    -webkit-app-region: drag;
+    height: 40px; 
+    background-color: #100f18;
+    padding: none;
+    margin: 0px; 
+   }
+   
+   #title {
+    position: fixed;
+    top: 0px;
+    left: 6px;
+    color: white;
+    margin-top: 10px;
+   }
+   
+   #title-bar-btns {
+    -webkit-app-region: no-drag;
+    position: fixed;
+    top: 0px;
+    right: 6px;
+   }
+
+   #max {
+       margin-top: 10px;
+   }
+
+   #maxbtn, #minbtn {
+       transition: .3s all ease;
+   }
+
+   #maxbtn:hover, #minbtn:hover {
+        background-color: rgb(9, 19, 116);
+   }
+
+
+
+
+   button {
+       background-color: transparent;
+       cursor: pointer;
+       border: none;
+       box-sizing: none;
+       transition: .3s all ease;
+       margin-top: -10px;
+       padding-top: 6px;
+       padding-bottom: 6px;
+       outline: none;
+   }
+
+   #closebtn:hover {
+        background-color: red;
+   }

@@ -1,0 +1,16 @@
+{
+  "name": "text-edit",
+  "version": "0.0.1",
+  "description": "TextEdit for windows",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Clark",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^16.0.5",
+    "electron-reloader": "^1.2.1",
+    "jquery": "^3.6.0"
+  }
+}
